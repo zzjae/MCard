@@ -1,46 +1,105 @@
-# Getting Started with Create React App
+Gitmoji 사용
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🎨:art:
+코드의 구조/형태 개선
 
-## Available Scripts
+⚡️:zap:
+성능 개선
 
-In the project directory, you can run:
+🔥:fire:
+코드/파일 삭제
 
-### `yarn start`
+🐛:bug:
+버그 수정
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+🚑
+:ambulance:
+긴급 수정
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+✨:sparkles:
+새 기능
 
-### `yarn test`
+📝:memo:
+문서 추가/수정
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+💄:lipstick:
+UI/스타일 파일 추가/수정
 
-### `yarn build`
+🎉:tada:
+프로젝트 시작
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+✅:white_check_mark:
+테스트 추가/수정
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🔒:lock:
+보안 이슈 수정
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🔖:bookmark:
+릴리즈/버전 태그
 
-### `yarn eject`
+💚:green_heart:
+CI 빌드 수정
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+📌:pushpin:
+특정 버전 의존성 고정
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+👷:construction_worker:
+CI 빌드 시스템 추가/수정
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+📈:chart_with_upwards_trend:
+분석, 추적 코드 추가/수정
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+♻️:recycle:
+코드 리팩토링
 
-## Learn More
+➕:heavy_plus_sign:
+의존성 추가
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+➖:heavy_minus_sign:
+의존성 제거
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🔧:wrench:
+구성 파일 추가/삭제
+
+🔨:hammer:
+개발 스크립트 추가/수정
+
+🌐:globe_with_meridians:
+국제화/현지화
+
+💩:poop:
+똥싼 코드
+
+⏪:rewind:
+변경 내용 되돌리기
+
+🔀:twisted_rightwards_arrows:
+브랜치 합병
+
+📦:package:
+컴파일된 파일 추가/수정
+
+👽:alien:
+외부 API 변화로 인한 수정
+
+🚚:truck:
+리소스 이동, 이름 변경
+
+📄:page_facing_up:
+라이센스 추가/수정
+
+💡:bulb:
+주석 추가/수정
+
+🍻:beers:
+술 취해서 쓴 코드
+
+🗃:card_file_box:
+데이버베이스 관련 수정
+
+🔊:loud_sound:
+로그 추가/수정
+
+
+🙈:see_no_evil:
+.gitignore 추가/수정
