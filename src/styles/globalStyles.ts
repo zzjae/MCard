@@ -148,7 +148,7 @@ export default css`
     line-height: normal;
   }
    a {
-    color: #fff;
+    color: black;
     text-decoration: none;
     outline: none;
   }
