@@ -152,7 +152,6 @@ export default css`
     text-decoration: none;
     outline: none;
   }
-   a:hover,
   a:active {
     text-decoration: none;
     color: #fff;
