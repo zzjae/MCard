@@ -10,7 +10,7 @@ import {
 } from 'firebase/firestore';
 import { store } from './firebase';
 
-import { COLLECTIONS } from '@constants/';
+import { COLLECTIONS } from '@constants';
 import { Card } from '@/models/card';
 
 export async function getCards(pageParam?: QuerySnapshot<Card>) {
