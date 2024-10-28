@@ -13,6 +13,8 @@ import FixedBottomButton from '@/components/shared/FixedBottonButton';
 import Flex from '@/components/shared/Flex';
 import Text from '@/components/shared/Text';
 import useUser from '@/hooks/auth/useUser';
+import Review from '@/components/card/Review';
+import Spacing from '@/components/shared/Spacing';
 
 function CardPage() {
   const navigate = useNavigate();
@@ -90,27 +92,19 @@ function CardPage() {
           <Text typography="t7">{removeHtmlTags(promotion.terms)}</Text>
         </Flex>
       ) : null}
-      <FixedBottomButton label="신청하기" onClick={moveToApply} />
+      <Spacing size={1000} />
+      <Review />
+      <Spacing size={100} />
+      <FixedBottomButton
+        label="1분만에 신청하고 혜택받기"
+        onClick={moveToApply}
+      />
     </div>
   );
 }
 
 function removeHtmlTags(text: string) {
-  let output = '';
-
-  for (let i = 0; i < text.length; i += 1) {
-    if (text[i] === '<') {
-      for (let j = i + 1; j < text.length; j += 1) {
-        if (text[j] === '>') {
-          i = j;
-          break;
-        }
-      }
-    } else {
-      output += text[i];
-    }
-  }
-  return output;
+  return text.replace(/<\/?[^>]+(>|$)/g, '');
 }
 
 function IconCheck() {
